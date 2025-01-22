@@ -3,8 +3,8 @@ import {
   Main,
   Timeline,
   Expertise,
-  Project,
-  Contact,
+//   Project,
+//   Contact,
   Navigation,
   Footer,
 } from "./components";
@@ -33,8 +33,8 @@ function App() {
             <Main/>
             <Expertise/>
             <Timeline/>
-            <Project/>
-            <Contact/>
+            {/* <Project/> */}
+            {/* <Contact/> */}
         </FadeIn>
         <Footer />
     </div>
