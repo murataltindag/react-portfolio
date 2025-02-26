@@ -18,7 +18,7 @@ function Project() {
         <div className="projects-grid">
             <div className="project">
                 <a href="https://murataltindag.github.io/debt-snowball-calc/" target="_blank" rel="noreferrer"><img src={mock10} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://murataltindag.github.io/debt-snowball-calc/" target="_blank" rel="noreferrer"><h2>Filmate AI</h2></a>
+                <a href="https://murataltindag.github.io/debt-snowball-calc/" target="_blank" rel="noreferrer"><h2>Debt Snowball Calculator</h2></a>
                 <p>Developed a debt snowball calculator with Flutter. This project helps users to pay off their debts faster by following the debt snowball method.</p>
             </div>
             {/* <div className="project">
