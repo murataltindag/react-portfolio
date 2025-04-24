@@ -1,10 +1,10 @@
 import React from "react";
-import mock01 from '../assets/images/mock01.png';
-import mock02 from '../assets/images/mock02.png';
-import mock03 from '../assets/images/mock03.png';
-import mock04 from '../assets/images/mock04.png';
-import mock05 from '../assets/images/mock05.png';
-import mock06 from '../assets/images/mock06.png';
+// import mock01 from '../assets/images/mock01.png';
+// import mock02 from '../assets/images/mock02.png';
+// import mock03 from '../assets/images/mock03.png';
+// import mock04 from '../assets/images/mock04.png';
+// import mock05 from '../assets/images/mock05.png';
+// import mock06 from '../assets/images/mock06.png';
 import mock07 from '../assets/images/mock07.png';
 import mock08 from '../assets/images/mock08.png';
 import mock09 from '../assets/images/mock09.png';
@@ -21,21 +21,24 @@ function Project() {
                 <a href="https://murataltindag.github.io/debt-snowball-calc/" target="_blank" rel="noreferrer"><h2>Debt Snowball Calculator</h2></a>
                 <p>Developed a debt snowball calculator with Flutter. This project helps users to pay off their debts faster by following the debt snowball method.</p>
             </div>
-            {/* <div className="project">
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><h2>High Speed Chase</h2></a>
-                <p>Designed, developed, and launched a 3D multiplayer racing game with C# and Unity. This is available on Itch.io for gamers worldwide to enjoy.</p>
-            </div>
             <div className="project">
-                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><img src={mock08} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><h2>Astro Raiders</h2></a>
-                <p>Developed and released a 2D shooting game with C# and Unity. This project is hosted on the Itch.io public marketplace.</p>
+                <a href="https://github.com/CSC453-Group-Project/LinkedIn" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/CSC453-Group-Project/LinkedIn" target="_blank" rel="noreferrer"><h2>LinkedIn Data Visualization</h2></a>
+                <p>This project aims to transform LinkedIn profile data from survey responses into a and visual format using Pentaho for ETL processes and Power BI for data visualization.</p>
             </div>
+            
             <div className="project">
-                <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><img src={mock07} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.datumlearn.com/" target="_blank" rel="noreferrer"><h2>Datum: Integrated Learning Platform</h2></a>
-                <p>This is an online educational platform that provides high-quality, data science-focused learning resources in the Japanese language. I created the entire platform from scratch using Ruby on Rails.</p>
+                <a href="https://github.com/murataltindag/RoomScape" target="_blank" rel="noreferrer"><img src={mock08} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/murataltindag/RoomScape" target="_blank" rel="noreferrer"><h2>RoomScape Project</h2></a>
+                <p>Developed 3D local co-op game simulating an escape room with puzzles. Added an inventory system, controller support, and start/end menus.</p>
             </div>
+            
+            <div className="project">
+                <a><img src={mock07} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a><h2>Space Invaders</h2></a>
+                <p>This is a replica of the original arcade Space Invaders, built with C# on Visual Studio. This project was great practice both for Game Development and implementing OOP design patterns.</p>
+            </div>
+            {/*
             <div className="project">
                 <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><img src={mock06} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer"><h2>WeManage: Real Estate Asset Management</h2></a>
