@@ -10,6 +10,7 @@ import mock08 from '../assets/images/mock08.png';
 import mock09 from '../assets/images/mock09.png';
 import mock10 from '../assets/images/mock10.png';
 import mock11 from '../assets/images/mock11.png';
+import mock12 from '../assets/images/mock12.png';
 import '../assets/styles/Project.scss';
 
 function Project() {
@@ -21,6 +22,11 @@ function Project() {
                 <a href="https://css-toolbox.lovable.app/" target="_blank" rel="noreferrer"><img src={mock11} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://css-toolbox.lovable.app/" target="_blank" rel="noreferrer"><h2>CSS Toolbox</h2></a>
                 <p>A simple, AI-powered tool to help web designers find their favorite CSS style without coding.</p>
+            </div>
+            <div className="project">
+                <a href="https://fishy-game.lovable.app/" target="_blank" rel="noreferrer"><img src={mock12} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://fishy-game.lovable.app/" target="_blank" rel="noreferrer"><h2>Fishy Game</h2></a>
+                <p>A simple Fishy Game.</p>
             </div>
             <div className="project">
                 <a href="https://murataltindag.github.io/debt-snowball-calc/" target="_blank" rel="noreferrer"><img src={mock10} className="zoom" alt="thumbnail" width="100%"/></a>
